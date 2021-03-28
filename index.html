@@ -18,21 +18,55 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets\css\style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
   <body>
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p class="lead">A simple calendar App for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
+
     <div class="container">
-      <!-- Timeblocks go here -->BBBBBBBBBBBBBBBBBBBBBB
-    </div>
+      
+      <div class="row" >
+        <p>0800 HR</p>
+        <!-- <ul class="list-group col-10 border" data-target="#modal-task"> -->
+          <!-- <li class="list-element"> -->
+          <textarea class="text-area" id="modaltask01" cols="100%"></textarea>
+          <!-- </li> -->
+        <!-- </ul> -->
+        <button class="saveBtn" id="saveBtn01">Save</button>
+      </div>
+      <div class="row">
+        <p>0900 HR</p>
+        <!-- <ul class="list-group col-10 border"> -->
+          <!-- <li class="list-element"> -->
+          <textarea class="text-area" id="modaltask02"  cols="100%"></textarea>
+          <!-- </li> -->
+        <!-- </ul> -->
+        <button class="saveBtn" id="saveBtn02">Save</button>
+      </div>
+      <div class="row">
+        <p>1000 HR</p>
+        <!-- <ul class="list-group col-10 border"> -->
+          <!-- <li class="list-element"> -->
+          <textarea class="text-area" id="modaltask03" cols="100%"></textarea>
+          <!-- </li> -->
+        <!-- </ul> -->
+        <button class="saveBtn" id="saveBtn03">Save</button>
+      </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets\js\script.js"></script>
   </body>
 </html>
