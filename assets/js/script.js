@@ -9,8 +9,24 @@ $(document).ready(function() {
     function currentTime() {
         var nowHour= moment().hours();
         var time= $(".row");
-        console.log(nowHour);
-    }
+  
+
+    time.each(function() {
+        var hour= parseInt($(this).attr("id"))
+
+        if (hour === nowHour) {
+            $(this).children(".text-area").attr("class", "present col-md-10")
+        }
+        else if (nowHour > hour) {
+            $(this).children(".col-md-10").attr("class", "past col-md-10")
+        }
+        else {
+            $(this).children(".col-md-10").attr("class", "future col-md-10")
+        }
+    })
+
+}
+    currentTime()
 
 
 
