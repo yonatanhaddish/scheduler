@@ -34,7 +34,7 @@ textarea{
   white-space: pre-wrap;
   height: 50px;
   border-top: 1px solid white;
-  background-color: #77dd77; 
+  background-color: #f3f3f3; 
 }
 
 .hour {
@@ -78,4 +78,9 @@ ul {
 #currentDay {
   color: #215763;
   font-size: 40px;
+}
+
+.text-area {
+  border: solid 1px;
+  color: black;
 }
