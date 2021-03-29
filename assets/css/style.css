@@ -75,6 +75,7 @@ ul {
   list-style-type: none;
 }
 
-/* textarea {
-  border: none;
-} */
+#currentDay {
+  color: #215763;
+  font-size: 40px;
+}
